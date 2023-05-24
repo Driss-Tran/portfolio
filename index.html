@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/cotton/64/undefined/document--v2.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@200;400;600&family=Ubuntu:ital,wght@0,400;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <title>Phat's Portfolio</title>
+</head>
+
+<body>
+    <div class="container-wrap">
+        <section id="home" class="home">
+            <nav class="navbar_content">
+                <div class="navbar_menuPhone">
+                <div class="navbar_header--around">
+                    <a href="#">
+                        <h1 class="navbar_header">Phat's Portfolio</h1>
+                    </a>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+                </div>
+                <div id="nav-links">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul class="navbar_list">
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <li><a href="#skills">PORTFOLIO</a></li>
+                        <li><a href="#projects">PROJECT</a></li>
+                    </ul>  
+                </div>
+            </nav>
+
+            <div class="basic_intro-around">
+                <div class="basic_intro">
+                    <h1 class="basic_intro--name">Hello, My name is <span style="color:rgb(159, 233, 31);">Phat</span>.
+                    </h1>
+                    <p class="basic_intro--content">Welcome to my personal Website.</p>
+                    <p class="basic_intro--content">I am student from Ton Duc Thang University. My major is Computer
+                        Network and Data Communication.
+                        However, I enjoy building Front-end Website and I always improve myself on a daily basis in
+                        order to become better.
+
+                    </p>
+                </div>
+                <div class="basic-img">
+                    <img src="./Img/avatar.jpg" class="avatar">
+                </div>
+            </div>
+        </section>
+        <section id="story" class="Story">
+            <div class="story_introduction">
+                <h1 class="story_introduction--name">My story</h1>
+                <p>I was born in VietNam. I have been studying at Ton Duc Thang University since 2020. My major is
+                    Computer Network and Data Communication.
+                    In 2021, because of Covid-19, I had to study from home and I spent a great amount of time on
+                    learning about Front-end website on the Internet.
+                    While I have been learning and building website, I am interested in dealing with a problem.
+                </p>
+            </div>
+            <div class="about_me">
+                <div class="content_aboutMe">
+                    <div>
+                        <h2>A little bit about me</h2>
+                        <p>To be honest, I like to watch Youtube, play games, play basketball. My all time favorite
+                            youtubers are
+                            Son Dang(F8), Hoang(Toi di code dao), and also Envondev, their channels always share
+                            knowledge about Front-end, Back-end and general IT.
+                            Some online games which I often play are LOL, FO4 and Valorant.
+                        </p>
+                    </div>
+                    <div class="img_aboutMe">
+                        <img class="img_sp" src="./Img/aboutMe.png" alt="image" width="100%">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="funFact">
+        <h1 class ="sub-title">Random fun facts about me</h1>
+            <div class="container pt-3">
+                <div class="row">
+                    <div class="theCard col-lg-3 col-md-3 col-sm-12"> 
+                        <img class="img" src="./Img/istockphoto-959080376-612x612.jpg" alt="alternative image" width="100%" height="100%">  
+                    <div class="overlay">
+                    </div>
+                    <div class="service-desc">
+                        <h3>1</h3>
+                        <p>I love basketball.</p>
+                    </div>
+                    </div>
+
+                    <div class="theCard col-lg-3 col-md-3 col-sm-12">
+                        <img src="./Img/Music.jpg" alt="alternative image" width="100%" height="100%">
+                        <div class="overlay">
+                    </div>
+                    <div class="service-desc">
+                        <h3>2</h3>
+                        <p>I love Pop music.</p>
+                    </div>
+                    </div>
+
+                    <div class="theCard col-lg-3 col-md-3 col-sm-12">
+                        <img src="./Img/reading.jpg" alt="alternative image" width="100%" height="100%">
+                        <div class="overlay">
+                    </div>
+                    <div class="service-desc">
+                        <h3>3</h3>
+                        <p>I usually read book in my free time.</p>
+                    </div>
+                    </div>
+
+                    <div class="theCard col-lg-3 col-md-3 col-sm-12">
+                        <img src="./Img/the-unmistakables--P8DckEf8X8-unsplash.jpg" alt="alternative image" width="100%" height="100%">
+                        <div class="overlay">
+                    </div>
+                    <div class="service-desc">
+                        <h3>4</h3>
+                        <p>I am capable of working in team.</p>
+                    </div>
+                    </div>
+
+                    <div class="theCard col-lg-3 col-md-3 col-sm-12">
+                        <img src="./Img/beach.jpg" alt="alternative image" width="100%" height="100%">
+                        <div class="overlay">
+                    </div>
+                    <div class="service-desc">
+                        <h3>5</h3>
+                        <p>I enjoy watching sunset on the beach.</p>
+                    </div>
+                    </div>
+
+                    <div class="theCard col-lg-3 col-md-3 col-sm-12">
+                        <img src="./Img/forest.jpg" alt="alternative image" width="100%" height="100%">
+                        <div class="overlay">
+                    </div>
+                    <div class="service-desc">
+                        <h3>6</h3>
+                        <p>I really love peaceful atmosphere.</p>
+                    </div>
+                    </div>
+
+                    <div class="theCard col-lg-3 col-md-3 col-sm-12">
+                        <img src="./Img/Dalat.jpg" alt="alternative image" width="100%" height="100%">
+                        <div class="overlay">
+                    </div>
+                    <div class="service-desc">
+                        <h3>7</h3>
+                        <p>My favorite tourist attraction is Dalat</p>
+                    </div>
+                    </div>
+
+                    <div class="theCard col-lg-3 col-md-3 col-sm-12">
+                        <img src="./Img/Candy.jpg" alt="alternative image" width="100%" height="100%">
+                        <div class="overlay">
+                    </div>
+                    <div class="service-desc">
+                        <h3>8</h3>
+                        <p>I am an ambivert person.</p>
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+
+                
+        </section>
+
+        <section class="my_skills" id="skills">
+           <h1 class="sub-title">My Skills</h1>
+           
+           <div class="container">
+            <div class="skill_content">
+            <h2 class="skill_title">Professional Skills : </h3>
+             <ul class="skill_list">
+                <li>1. Programming Language :</li>
+                 <div class="skill_list_item">
+                     <div class="item_language_list_overall">
+                        <div class="item_language_list">
+                            <div class="item_language">
+                                <img src="./Img/icons8-c-programming.svg" alt="Unknown" width="60%">
+                                <p>C language</p>
+                            </div>
+    
+                            <div class="item_language">
+                                <img src="./Img/icons8-c++.svg" alt="Unknown" width="60%">
+                                <p>C++ language</p>
+                            </div>
+    
+                            <div class="item_language">
+                                <img src="./Img/icons8-java.svg" alt="Unknown" width="60%">
+                               <p>Java language</p>
+                               </div>
+    
+                            <div class="item_language">
+                                <img src="./Img/icons8-python.svg" alt="Unknown" width="60%">
+                               <p>Python language</p>
+                            </div>
+                       </div>
+                       <div class="item_language_desc">
+                        <h4>There are some languages that I can know syntax of them. 
+                            I know about structure of these languages. Addtionally, I still have knowledge of OOP concept and use Java to implement it.
+
+                        </h4>
+                       </div>
+                     </div>
+                     
+
+                 </div>
+
+                 <li>2. Front-end Web :</li>
+                 <div class="skill_list_item">
+                     <div class="item_language_list_overall">
+                        <div class="item_language_list">
+                            <div class="item_language">
+                                <img src="./Img/icons8-html-5.svg" alt="Unknown" width="60%">
+                                <p>HTML</p>
+                            </div>
+    
+                            <div class="item_language">
+                                <img src="./Img/icons8-css3.svg" alt="Unknown" width="60%">
+                                <p>CSS</p>
+                            </div>
+    
+                            <div class="item_language">
+                                <img src="./Img/icons8-javascript.svg" alt="Unknown" width="60%">
+                               <p>Javascript</p>
+                               </div>
+    
+                            <div class="item_language">
+                                <img src="./Img/icons8-bootstrap.svg" alt="Unknown" width="60%">
+                               <p>Bootstrap Library</p>
+                            </div>
+                       </div>
+                       <div class="item_language_desc">
+                        <h4>There are some basic languages and library for Front-end website that I can use.                            
+                        </h4>
+                       </div>
+
+                     </div>
+                     
+
+                 </div>
+
+                 <li>3. Back-end Web :</li>
+                 <div class="skill_list_item">
+                     <div class="item_language_list_overall">
+                        <div class="item_language_list_last">
+                            <div class="item_language">
+                                <img src="./Img/icons8-php-logo.svg" alt="Unknown" width="60%">
+                                <p>PHP language</p>
+                            </div>
+                            <div class="item_language">
+                                <img src="./Img/icons8-c-sharp-logo.svg" alt="Unknown" width="60%">
+                                <p>C Sharp</p>
+                            </div>
+    
+                       </div>
+                       <div class="item_language_desc">
+                        <h4>I have basic knowledge of PHP language and ASP.NET(MVC) .                           
+                        </h4>
+                       </div>
+                       
+                     </div>
+                     
+
+                 </div>
+                
+                 <li>4. Database Management :</li>
+                 <div class="skill_list_item">
+                     <div class="item_language_list_overall">
+                        <div class="item_language_list_last  ">
+                            <div class="item_language">
+                                <img src="./Img/icons8-mysql-logo.svg" alt="Unknown" width="60%">
+                                <p>MySQL</p>
+                            </div>
+                            <div class="item_language">
+                                <img src="./Img/db.png" alt="Unknown" width="60%">
+                                <p>SQLServer</p>
+                            </div>
+                       </div>
+                       <div class="item_language_desc">
+                        <h4>
+                            I know how to use MySQL or SQLServer for database management
+                        </h4>
+                       </div>
+                       
+                     </div>
+                     
+
+                 </div>
+
+                 <li>5. Somethings I have been learning :</li>
+                 <div class="skill_list_item">
+                     <div class="item_language_list_overall">
+                        <div class="item_language_list  ">
+                            <div class="item_language">
+                                <img src="./Img/icons8-react.svg" alt="Unknown" width="60%">
+                                <p>ReactJS</p>
+                            </div>
+    
+                            <div class="item_language">
+                                <img src="./Img/icons8-thymeleaf.svg" alt="Unknown" width="60%">
+                                <p>Java Spring</p>
+                            </div>
+                            <div class="item_language">
+                                <img src="./Img/icons8-tailwind-css.svg" alt="Unknown" width="60%">
+                                <p>Tailwind CSS</p>
+                            </div>
+    
+                            
+    
+                       </div>
+                       <div class="item_language_desc">
+                        <h4>
+                            Honestly, I have been learning Java Spring, ReactJS and TailwindCSS.
+                        </h4>
+                       </div>
+                       
+                     </div>
+                     
+
+                 </div>
+             </ul>
+
+             <h2 class="skill_title res_padding">Soft Skills : </h3>
+                <div class="soft_skills">
+                    <ul class="skill_list notcenter">
+                    <li class="item_language_desc_cus">1. Time Management</li>
+                    <li class="item_language_desc_cus">2. Stress Management</li>
+                    <li class="item_language_desc_cus">3. Decision Making</li>
+                    <li class="item_language_desc_cus">4. Problem Solving</li>
+                    <li class="item_language_desc_cus">5. Self-Learning</li>
+                    </ul>
+                    <div class="svg_img">
+                        <img src="Img/undraw_social_thinking_re_y8cc.svg" alt="unknown" width="90%">
+                    </div>
+                </div>
+             </div>
+            </div>
+           
+            
+        </section>
+
+
+        <section class="myProject" id="projects">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="introduction">
+                <h5>To be honest, there are severals Projects that I do it by following tutorial or I do it myself.</h5>
+            </div>
+            <div class="container">
+                <div class="project_list row">
+                    <div class="project_item col-lg-4">
+                        <div class="card" style="width:350px">
+                            <img class="card-img-bottom" src="Img/project1.PNG" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                              <h4 class="card-title">Traveling Landing Page</h4>
+                              <p class="card-text wrap-text">This is the Traveling Landing Page. I design interface of this website following by Behance. I use HTML, CSS, JS and Bootstrap 4.</p>
+                              <a href="https://driss-tran.github.io/Traveling_Landing_Page/" class="btn btn-success">See Project</a>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="project_item col-lg-4">
+                        <div class="card" style="width:350px">
+                            <img class="card-img-bottom" src="Img/project2.png" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                              <h4 class="card-title">Bank Website</h4>
+                              <p class="card-text wrap-text">This is finalTerm project. I just push full source code on my Github and I do this project with my team. I am responsible for 
+                                front-end and some components of back-end. We use HTML, CSS, JS, Bootstrap 4, PHP, Mysql.
+                              </p>
+                              <a href="https://github.com/Driss-Tran/FinalTerm_Web" class="btn btn-success">See Source</a>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="project_item col-lg-4">
+                        <div class="card" style="width:350px">
+                            <img class="card-img-bottom" src="Img/project3.png" alt="Card image" style="width:100%">
+                            <div class="card-body">
+                              <h4 class="card-title">Travel Booking Website</h4>
+                              <p class="card-text wrap-text">This is the website for booking. I use ASP.NET(MVC) to do this and SQLServer for Database Management.</p>
+                              <a href="http://phat2407-001-site1.etempurl.com//" class="btn btn-success">See Project</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <hr>
+        <section class="my_contact_info" id="contact">
+            <div class="container">
+                  <h1 class="sub-title">My Contact Infomation</h1>
+                <div class="contact_content">
+                  <div class="list_contact">
+                    <ul class="contact_social_media">
+                      <li>
+                        
+                        <a href="https://www.linkedin.com/in/phattran2002/" style="color:#333"><p><i class="fa fa-linkedin-square" style="color:rgb(46, 149, 222);"></i> www.linkedin.com/in/phattran2002</p></a>
+                      </li>
+                      <li>
+                        <p><i class="fa fa-envelope" style="color:rgb(220, 108, 108);"></i> giaphat24072002@gmail.com</p> 
+                      </li>
+                    </ul>
+                    <ul class="contact_media">
+                      <li>
+                        <a href="https://www.facebook.com/jphat2407" style="color:#333"><p><i class="fa fa-facebook" style="color:blue;"></i> Gia Phát</p></a>
+                      </li>
+                      <li>
+                        <p><i class="fa fa-map-pin" style="color:rgb(22, 246, 63);"></i> Thành phố Hồ Chí Minh</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            
+              </div>
+            
+        </section>
+        <!-- Website này có được tham khảo giao diện từ một chị trên group FB nhưng em không nhớ nguồn. -->
+    <div class="footer">
+        <h5 class="sub-title">© From Gia Phat</h5>
+    </div>
+
+
+    
+    </div>
+
+
+    
+</body>
+<script src="./main.js"></script>
+
+</html>
+
